@@ -26,12 +26,12 @@ Once you have configured a copy of this script, you can use this initialization 
 
 For example, this command will run a word count sample (as root):
 
-    ```bash
-    sudo su -
-    HADOOP_CONF_DIR=/etc/hadoop/conf
-    /usr/lib/flink/bin/flink run -m yarn-cluster /usr/lib/flink/examples/streaming/WordCount.jar
-    ```
-
+```bash
+sudo su -
+HADOOP_CONF_DIR=/etc/hadoop/conf
+/usr/lib/flink/bin/flink run -m yarn-cluster /usr/lib/flink/examples/streaming/WordCount.jar
+```
+	
 You can find more information about using initialization actions with Dataproc in the [Dataproc documentation](https://cloud.google.com/dataproc/init-actions).
 
 ## Important notes
