@@ -24,6 +24,11 @@
 
 set -x -e
 
+# Set Scala/Hadoop/Flink versions
+readonly SCALA_VERSION=2.11.8
+readonly HADOOP_VERSION=2.7.3
+readonly FLINK_VERSION=1.2.1
+
 # Install directories for Flink and Hadoop
 readonly FLINK_INSTALL_DIR='/usr/lib/flink'
 readonly HADOOP_CONF_DIR='/etc/hadoop/conf'
